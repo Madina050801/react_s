@@ -1,0 +1,20 @@
+.container{
+  width: 520px;
+  height: 374px;
+
+  background-color: #e6e7ee;
+  box-shadow: -5px -5px 8px rgb(128, 124, 124);
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.logoebay {
+  background-image: url(./ebay.jpg);
+}
+
+.firstline{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+}
