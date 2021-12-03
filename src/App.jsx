@@ -1,25 +1,15 @@
 import React from "react";
 
-class App extends React.Component {
-  render(){
-    return(
-      <div>
-        <h1>Hi React</h1>
-      </div>
-    );  
-  }
-}
-
 class Student extends React.Component {
   render(){
+    console.log(this);
     return(
       <div>
-        <h1>Hi Student</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, in? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, modi!</h1>
       </div>
     );  
   }
 }
 
-export {Student};
 
-export default App;
+export default Student;
